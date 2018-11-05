@@ -1,9 +1,11 @@
-POST http://localhost:3003/api/blogs
+POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRpbmRlIiwiaWQiOiI1YmRmZmY4OGVmNjVlZWJlMTRkMjAzNTAiLCJpYXQiOjE1NDE0Mjk5NDB9.4Tv4H2_n-_hu_oMk0A2d4DYsKzODQixXgE_ksKCqJec
 
 {
-  "title": "Kolmas Blogi",
-  "author": "Jore",
+  "title": "Five. Blog Of Amazing Ideas and Other Things",
+  "author": "tinu",
   "url": "www.testi.fi",
-  "likes": 34
+  "likes": 90,
+  "userId": "5bdfff88ef65eebe14d20350"
 }
